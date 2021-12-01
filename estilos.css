@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 body{
     margin: 0;
+    font-family: 'Merriweather', serif;
 }
 
 .cabecalho{
@@ -14,6 +17,8 @@ body{
     margin-bottom: 0;
     margin-left: auto;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 22px;
 }
 
 .logo{
@@ -26,7 +31,18 @@ body{
 }
 
 .nome-loja{
+    margin: 0;
     font-size: 60px;
     color: #20F6B7;
-    line-height: 80%;
+    line-height: 85%;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+}
+
+.texto-pequeno{
+    font-size: 45px;
+}
+
+.nav{
+
 }
