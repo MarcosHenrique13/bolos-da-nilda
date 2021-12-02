@@ -44,7 +44,7 @@ body{
 }
 
 .menu{
-    background-color: #EE70C4;
+    background-color: #ee70c4ee;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -55,7 +55,66 @@ body{
 }
 
 .item-menu{
-    color: #6B124D;
+    color: #6b124d;
     font-size: 18px;
     font-weight: 500;
 }
+
+.foto-banner{
+    width: 1200px;
+    height: 445px;
+    object-fit: cover;
+}
+
+.banner{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 5px solid #ee70c4ee ;
+}
+
+.cardapio{
+    font-size: 25px;
+    color: #1BA4D3;
+    line-height: 85%;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.texto-cardapio{
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: 13px;
+}
+
+.div-em-colunas{
+    column-count:4; 
+}
+
+.texto-fotos{
+    margin: 0;
+    font-size: 35px;
+    color: #1BA4D3;
+    line-height: 85%;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 800;
+    text-align: center;
+}
+
+.fundo-fotos{
+    background-color: #ee70c4ee;
+    width: 1200px;
+    height: 400;
+    margin-left: center;
+    margin-right: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color: #6B124D;
+}
+
+
+
