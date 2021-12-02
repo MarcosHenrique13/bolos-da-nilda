@@ -70,51 +70,117 @@ body{
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    border-bottom: 5px solid #ee70c4ee ;
 }
 
-.cardapio{
-    font-size: 25px;
+.hr-1{
+    width: 1200px;
+    height: 3px;
+    background-color: #ee70c4f5;
+    margin-top: -5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nome-cardapio{
+    font-size: 35px;
     color: #1BA4D3;
     line-height: 85%;
     font-family: 'Great Vibes', cursive;
     font-weight: 500;
     width: 1200px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
 }
 
 .texto-cardapio{
     font-family: 'Merriweather', serif;
     color: black;
-    font-size: 13px;
+    font-size: 14px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 64px;
 }
 
 .div-em-colunas{
-    column-count:4; 
+    column-count:4;
 }
 
-.texto-fotos{
-    margin: 0;
-    font-size: 35px;
-    color: #1BA4D3;
-    line-height: 85%;
-    font-family: 'Great Vibes', cursive;
-    font-weight: 800;
+.fotos{
+    background-color: #6B124D;
+    width: 1200px;
+    height: 310px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
-.fundo-fotos{
-    background-color: #ee70c4ee;
+.texto-fotos{
+    font-family: 'Great Vibes', cursive;
+    color: #1BA4D3;
+    font-size: 33px;
     width: 1200px;
-    height: 400;
-    margin-left: center;
-    margin-right: center;
-    padding-top: 19px;
-    padding-bottom: 19px;
-    color: #6B124D;
+    line-height: 85%;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 22px;
 }
 
+.foto-1{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 3px solid #20f6b6c9;
+    border-radius: 5px;
+}
 
+.foto-2{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin-right: 105px;
+    margin-left: 105px;
+    border: 3px solid #20f6b6c9;
+    border-radius: 5px;
+}
 
+.foto-3{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 3px solid #20f6b6c9;
+    border-radius: 5px;
+}
+
+.texto-contato{
+    font-family: 'Great Vibes', cursive;
+    color: #1BA4D3;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    font-size: 33px;
+    line-height: 85%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56,25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
