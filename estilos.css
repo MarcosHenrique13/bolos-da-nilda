@@ -164,6 +164,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 22px;
+    margin-bottom: 22px;
     font-size: 33px;
     line-height: 85%;
     font-weight: 500;
@@ -177,10 +178,9 @@ body{
     height: 0;
 }
 
-.map-responsive iframe{
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+.mapa-google{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
