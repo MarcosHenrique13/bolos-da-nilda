@@ -102,7 +102,6 @@ body{
     font-family: 'Merriweather', serif;
     color: black;
     font-size: 13px;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -186,7 +185,40 @@ body{
 }
 
 .mapa-google{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hr-2{
     width: 1200px;
+    height: 3px;
+    background-color: #6b124def;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+}
+
+.texto-footer{
+    font-family: 'Great Vibes', cursive;
+    color: #6B124D;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 33px;
+    line-height: 85%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.logos{
+    width: 20px;
+    height: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
