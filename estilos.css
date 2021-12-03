@@ -219,13 +219,18 @@ body{
     width: 40px;
     height: 40px;
     object-fit: cover;
-    margin-left: 680px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo-2{
     width: 40px;
     height: 40px;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
+.rodape{
+    text-align: center;
+}
