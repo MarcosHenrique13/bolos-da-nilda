@@ -33,10 +33,10 @@ body{
 .nome-loja{
     margin: 0;
     font-size: 60px;
-    color: #20F6B7;
+    color: #20f6b6;
     line-height: 85%;
     font-family: 'Great Vibes', cursive;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .texto-pequeno{
@@ -132,7 +132,7 @@ body{
     font-size: 33px;
     width: 1200px;
     line-height: 85%;
-    font-weight: 500;
+    font-weight: 550;
     text-align: center;
     padding-top: 22px;
 }
@@ -171,9 +171,9 @@ body{
     margin-right: auto;
     margin-top: 22px;
     margin-bottom: 22px;
-    font-size: 33px;
+    font-size: 40px;
     line-height: 85%;
-    font-weight: 500;
+    font-weight: 550;
     text-align: center;
 }
 
@@ -189,37 +189,44 @@ body{
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
 .hr-2{
     width: 1200px;
     height: 3px;
-    background-color: #6b124def;
+    background-color: #6b124de8;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -5px;
+    margin-top: 50px;
 }
 
 .texto-footer{
     font-family: 'Great Vibes', cursive;
-    color: #6B124D;
+    color: #6b124dee;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 22px;
-    margin-bottom: 22px;
-    font-size: 33px;
+    margin-bottom: 15px;
+    font-size: 35px;
     line-height: 85%;
-    font-weight: 500;
+    font-weight: 600;
     text-align: center;
 }
 
-.logos{
-    width: 20px;
-    height: 20px;
+.logo-1{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+}
+
+.logo-2{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
 }
