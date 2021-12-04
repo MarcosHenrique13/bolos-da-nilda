@@ -101,14 +101,10 @@ body{
 .texto-cardapio{
     font-family: 'Merriweather', serif;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    font-size: 14px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 22px;
     margin-bottom: 64px;
 }
@@ -129,7 +125,7 @@ body{
 .texto-fotos{
     font-family: 'Great Vibes', cursive;
     color: #1BA4D3;
-    font-size: 33px;
+    font-size: 35px;
     width: 1200px;
     line-height: 85%;
     font-weight: 550;
@@ -185,10 +181,11 @@ body{
 }
 
 .mapa-google{
-    width: 500px;
+    width: 1200px;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .hr-2{
@@ -232,5 +229,8 @@ body{
 }
 
 .rodape{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
